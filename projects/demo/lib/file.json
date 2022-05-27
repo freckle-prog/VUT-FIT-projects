@@ -1,0 +1,97 @@
+{
+  "diagram_name" : "ClassDiagram",
+  "diagram_classes" : [
+    {
+      "class_name": "Order",
+      "Abstract": "true",
+      "attributes": [{
+          "attr_name": "Date received",
+          "type": "integer"
+        },
+        {
+          "attr_name": "Price",
+          "type": "integer"
+        }],
+      "operations": [{
+          "op_name": "Dispatch",
+          "input_params": ["string"],
+          "return_type": "string"
+      }],
+      "relation_list": [{
+          "type": "composition",
+          "first_class": "Order",
+          "second_class" : "Customer"
+      }],
+      "positionX": "10",
+      "positionY": "50"
+    },
+    {
+      "class_name": "Customer",
+      "Abstract": "false",
+      "attributes" : [{
+        "attr_name" : "Name",
+        "type" : "string"
+      },
+        {
+         "attr_name" : "Address",
+          "type" : "string"
+        }],
+      "operations": [{
+        "op_name": "create_order",
+        "input_params": ["string"],
+        "return_type": "string"
+      }],
+      "relation_list": [{
+        "type": "aggregation",
+        "first_class": "Customer",
+        "second_class" : "Personal"
+      }],
+      "positionX": "260",
+      "positionY": "50"
+    },
+    {
+      "class_name": "Personal",
+      "Abstract": "false",
+      "attributes": [{
+        "attr_name": "ID",
+        "type" : "int"
+      }],
+      "operations": [{
+        "op_name": "add_new_customer",
+        "input_params": ["string"],
+        "return_type": "happiness"
+      }],
+      "relation_list": [{
+        "type": "aggregation",
+        "first_class": "Personal",
+        "second_class" : "Customer"
+      }],
+      "positionX": "510",
+      "positionY": "50"
+    },
+    {
+      "class_name" : "Market",
+      "Abstract": "true",
+      "attributes": [{
+        "attr_name": "Address",
+        "type": "string"
+      },
+        {
+          "attr_name" : "Products",
+          "type": "string"
+        }],
+      "operations": [{
+        "op_name": "Purchase new product",
+        "input_params": ["int", "string"],
+        "return_type": "inr"
+      }],
+      "relation_list": [{
+        "type": "aggregation",
+        "first_class": "Products",
+        "second_class" : "Order"
+      }],
+      "positionX": "700",
+      "positionY": "50"
+    }
+  ]
+}

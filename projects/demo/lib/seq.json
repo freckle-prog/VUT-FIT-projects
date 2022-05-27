@@ -1,0 +1,89 @@
+{
+  "diagram_name": "ClassDiagram",
+  "diagram_classes": [
+    {
+      "json_sequences": [
+        {
+          "sequence_name": "trying_sequence",
+          "lifetime": 300,
+          "msg": "New_Message",
+          "involved_class": {
+            "class_name": "Customer",
+            "positionX": 200.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "id": 0
+          },
+          "send_class": {
+            "class_name": "Order",
+            "positionX": 50.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "id": 0
+          }
+        },
+        {
+          "sequence_name": "sec_seq",
+          "lifetime": 300,
+          "msg": "create_order",
+          "involved_class": {
+            "class_name": "Order",
+            "positionX": 50.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "id": 0
+          },
+          "send_class": {
+            "class_name": "Customer",
+            "positionX": 200.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "id": 0
+          }
+        },
+        {
+          "sequence_name": "another seq",
+          "lifetime": 300,
+          "msg": "add_new_customer",
+          "involved_class": {
+            "class_name": "Customer",
+            "positionX": 200.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "id": 0
+          },
+          "send_class": {
+            "class_name": "Personal",
+            "positionX": 350.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "id": 0
+          }
+        },
+        {
+          "sequence_name": "usersg",
+          "lifetime": 300,
+          "msg": "Dispatch",
+          "involved_class": {
+            "class_name": "Personal",
+            "positionX": 350.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "id": 0
+          },
+          "send_class": {
+            "class_name": "Order",
+            "positionX": 50.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "id": 0
+          }
+        }
+      ],
+      "positionX": 0.0,
+      "positionY": 0.0,
+      "isUserDefined": false,
+      "id": 0
+    }
+  ]
+}

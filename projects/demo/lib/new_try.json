@@ -1,0 +1,203 @@
+{
+  "diagram_name": "ClassDiagram",
+  "diagram_classes": [
+    {
+      "class_name": "Maths",
+      "Abstract": "true",
+      "attributes": [
+        {
+          "type": "integer",
+          "attr_name": "1. value",
+          "id": 0
+        },
+        {
+          "type": "integer",
+          "attr_name": "2. value",
+          "id": 0
+        }
+      ],
+      "operations": [
+        {
+          "op_name": "addition",
+          "return_type": "integer",
+          "input_params": [
+            "interger",
+            "integer"
+          ],
+          "id": 0
+        }
+      ],
+      "relation_list": [
+        {
+          "type": "composition",
+          "first_class": "Maths",
+          "second_class": "Bank"
+        }
+      ],
+      "positionX": 10.0,
+      "positionY": 50.0,
+      "isUserDefined": false,
+      "id": 0
+    },
+    {
+      "class_name": "Bank",
+      "Abstract": "false",
+      "attributes": [
+        {
+          "type": "string",
+          "attr_name": "department",
+          "id": 0
+        },
+        {
+          "type": "string",
+          "attr_name": "banker",
+          "id": 0
+        }
+      ],
+      "operations": [
+        {
+          "op_name": "create_client",
+          "return_type": "client",
+          "input_params": [
+            "string"
+          ],
+          "id": 0
+        }
+      ],
+      "relation_list": [
+        {
+          "type": "aggregation",
+          "first_class": "Bank",
+          "second_class": "My_class"
+        }
+      ],
+      "positionX": 260.0,
+      "positionY": 50.0,
+      "isUserDefined": false,
+      "id": 0
+    },
+    {
+      "class_name": "My_Class",
+      "Abstract": "false",
+      "attributes": [
+        {
+          "type": "string",
+          "attr_name": "love",
+          "id": 0
+        }
+      ],
+      "operations": [
+        {
+          "op_name": "delete_life",
+          "return_type": "happiness",
+          "input_params": [
+            "life"
+          ],
+          "id": 0
+        }
+      ],
+      "relation_list": [
+        {
+          "type": "aggregation",
+          "first_class": "My_class",
+          "second_class": "Maths"
+        }
+      ],
+      "positionX": 510.0,
+      "positionY": 50.0,
+      "isUserDefined": false,
+      "id": 0
+    },
+    {
+      "class_name": "FIT",
+      "Abstract": "true",
+      "attributes": [
+        {
+          "type": "string",
+          "attr_name": "lecture room",
+          "id": 0
+        }
+      ],
+      "operations": [
+        {
+          "op_name": "add_l_room",
+          "return_type": "string",
+          "input_params": [
+            "integer",
+            "string"
+          ],
+          "id": 0
+        }
+      ],
+      "relation_list": [
+        {
+          "type": "aggregation",
+          "first_class": "FIT",
+          "second_class": "Bank"
+        }
+      ],
+      "positionX": 700.0,
+      "positionY": 50.0,
+      "isUserDefined": false,
+      "id": 0
+    },
+    {
+      "class_name": "Dgjnsg",
+      "Abstract": "true",
+      "attributes": [
+        {
+          "type": "dsg",
+          "attr_name": "sdga",
+          "name": "sdga",
+          "id": 0
+        }
+      ],
+      "operations": [
+        {
+          "op_name": "delete_l_room",
+          "return_type": "string",
+          "input_params": [
+            "integer",
+            "string"
+          ],
+          "id": 0
+        }
+      ],
+      "relation_list": [
+        {
+          "type": "aggregation",
+          "first_class": "FEKT",
+          "second_class": "FIT"
+        }
+      ],
+      "positionX": 0.0,
+      "positionY": 0.0,
+      "isUserDefined": false,
+      "id": 0
+    },
+    {
+      "class_name": "Csaf",
+      "Abstract": "false",
+      "attributes": [],
+      "operations": [
+        {
+          "op_name": "dbdg",
+          "return_type": "adad",
+          "input_params": [
+            "sdf",
+            "sdg"
+          ],
+          "name": "dbdg",
+          "id": 0
+        }
+      ],
+      "relation_list": [],
+      "positionX": 0.0,
+      "positionY": 0.0,
+      "isUserDefined": false,
+      "classifier_name": "Csaf",
+      "name": "Csaf",
+      "id": 0
+    }
+  ]
+}

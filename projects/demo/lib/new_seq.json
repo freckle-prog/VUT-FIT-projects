@@ -1,0 +1,155 @@
+{
+  "diagram_name": "ClassDiagram",
+  "diagram_classes": [
+    {
+      "json_sequences": [
+        {
+          "sequence_name": "trying_sequence",
+          "lifetime": 300,
+          "msg": "New_Message",
+          "involved_class": {
+            "class_name": "Customer",
+            "positionX": 200.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "id": 0
+          },
+          "send_class": {
+            "class_name": "Order",
+            "positionX": 50.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "id": 0
+          }
+        },
+        {
+          "sequence_name": "sec_seq",
+          "lifetime": 300,
+          "msg": "create_order",
+          "involved_class": {
+            "class_name": "Order",
+            "positionX": 50.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "id": 0
+          },
+          "send_class": {
+            "class_name": "Customer",
+            "positionX": 200.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "id": 0
+          }
+        },
+        {
+          "sequence_name": "another seq",
+          "lifetime": 300,
+          "msg": "add_new_customer",
+          "involved_class": {
+            "class_name": "Customer",
+            "positionX": 200.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "id": 0
+          },
+          "send_class": {
+            "class_name": "Personal",
+            "positionX": 350.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "id": 0
+          }
+        },
+        {
+          "sequence_name": "usersg",
+          "lifetime": 300,
+          "msg": "Dispatch",
+          "involved_class": {
+            "class_name": "Personal",
+            "positionX": 350.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "id": 0
+          },
+          "send_class": {
+            "class_name": "Order",
+            "positionX": 50.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "id": 0
+          }
+        },
+        {
+          "sequence_name": "New_user_seq1",
+          "lifetime": 300,
+          "msg": "cust",
+          "involved_class": {
+            "class_name": "Order",
+            "Abstract": "false",
+            "attributes": [],
+            "operations": [],
+            "relation_list": [],
+            "json_sequences": [],
+            "positionX": 50.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "classifier_name": "Order",
+            "name": "Order",
+            "id": 0
+          },
+          "send_class": {
+            "class_name": "Order",
+            "Abstract": "false",
+            "attributes": [],
+            "operations": [],
+            "relation_list": [],
+            "json_sequences": [],
+            "positionX": 50.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "classifier_name": "Order",
+            "name": "Order",
+            "id": 0
+          }
+        },
+        {
+          "sequence_name": "New_user_seq1",
+          "lifetime": 300,
+          "msg": "Cust",
+          "involved_class": {
+            "class_name": "Customer",
+            "Abstract": "false",
+            "attributes": [],
+            "operations": [],
+            "relation_list": [],
+            "json_sequences": [],
+            "positionX": 200.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "classifier_name": "Customer",
+            "name": "Customer",
+            "id": 0
+          },
+          "send_class": {
+            "class_name": "Customer",
+            "Abstract": "false",
+            "attributes": [],
+            "operations": [],
+            "relation_list": [],
+            "json_sequences": [],
+            "positionX": 200.0,
+            "positionY": 0.0,
+            "isUserDefined": false,
+            "classifier_name": "Customer",
+            "name": "Customer",
+            "id": 0
+          }
+        }
+      ],
+      "positionX": 0.0,
+      "positionY": 0.0,
+      "isUserDefined": false,
+      "id": 0
+    }
+  ]
+}

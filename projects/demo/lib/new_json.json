@@ -1,0 +1,19 @@
+{
+    "diagram_name" : "ClassDiagram",
+    "diagram_class": {
+      "class_name": "Users",
+        "attributes": [{
+          "attr_name": "value",
+          "type": "integer"
+        }],
+        "operations": {
+          "op_name": "addition",
+          "input_params": ["integer", "integer"],
+          "return_type": "integer"
+        },
+        "pos": {
+          "x": 10,
+          "y": 10
+        }
+     }
+}

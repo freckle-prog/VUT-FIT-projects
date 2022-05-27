@@ -1,0 +1,133 @@
+{
+  "diagram_name": "ClassDiagram",
+  "diagram_classes": [
+    {
+      "Abstract": "false",
+      "attributes": [
+        {
+          "type": "integer",
+          "attr_name": "1. value",
+          "id": 0
+        },
+        {
+          "type": "integer",
+          "attr_name": "2. value",
+          "id": 0
+        }
+      ],
+      "class_name": "New_Math",
+      "operations": [
+        {
+          "op_name": "addition",
+          "return_type": "integer",
+          "input_params": [
+            "interger",
+            "integer"
+          ],
+          "id": 0
+        }
+      ],
+      "isUserDefined": false,
+      "id": 0
+    },
+    {
+      "Abstract": "rtwet",
+      "attributes": [
+        {
+          "type": "string",
+          "attr_name": "department",
+          "id": 0
+        },
+        {
+          "type": "string",
+          "attr_name": "banker",
+          "id": 0
+        }
+      ],
+      "class_name": "New_Bank",
+      "operations": [
+        {
+          "op_name": "create_client",
+          "return_type": "client",
+          "input_params": [
+            "string"
+          ],
+          "id": 0
+        }
+      ],
+      "isUserDefined": false,
+      "id": 0
+    },
+    {
+      "Abstract": "true",
+      "attributes": [
+        {
+          "type": "string",
+          "attr_name": "love",
+          "id": 0
+        }
+      ],
+      "class_name": "New_my_class",
+      "operations": [
+        {
+          "op_name": "delete_life",
+          "return_type": "happiness",
+          "input_params": [
+            "life"
+          ],
+          "id": 0
+        }
+      ],
+      "isUserDefined": false,
+      "id": 0
+    },
+    {
+      "Abstract": "true",
+      "attributes": [
+        {
+          "type": "string",
+          "attr_name": "lecture room",
+          "id": 0
+        }
+      ],
+      "class_name": "FIT",
+      "operations": [
+        {
+          "op_name": "add_l_room",
+          "return_type": "string",
+          "input_params": [
+            "integer",
+            "string"
+          ],
+          "id": 0
+        }
+      ],
+      "isUserDefined": false,
+      "id": 0
+    },
+    {
+      "Abstract": "true",
+      "attributes": [
+        {
+          "type": "string",
+          "attr_name": "lecture room",
+          "id": 0
+        }
+      ],
+      "class_name": "FEKT",
+      "operations": [
+        {
+          "op_name": "delete_l_room",
+          "return_type": "string",
+          "input_params": [
+            "integer",
+            "string"
+          ],
+          "id": 0
+        }
+      ],
+      "isUserDefined": false,
+      "id": 0
+    }
+  ]
+}
